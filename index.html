@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Segunda Quest - formulario</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+        rel="stylesheet">
+
+    <link rel="stylesheet" href="./src/css/reset.css">
+    <link rel="stylesheet" href="./src/css/style.css">
+</head>
+
+<body>
+
+    <div class="container">
+        <section class="duvidas">
+            <h2 class="pergunta-duvida">FICOU COM DÚVIDA? <br>NOS MANDE UMA MENSAGEM!</h2>
+            <p class="explicação-duvida">caso tenha ficado com qualquer dúvida basta nos mandar uma mensagem e
+                entraremos em contato em menos de 24h.</p>
+        </section>
+        <section class="campo-duvidas">
+            <input type="text" name="duvida" placeholder="Nome completo *" class="nome">
+            <p class="campo-obrigatorio">campo obrigatório</p>
+            <input type="email" name="duvida"  placeholder="Email *" class="email">
+            <p class="campo-obrigatorio">campo obrigatório</p>
+            <input type="tel" name="duvida" placeholder="telefone *" class="telefone">
+            <p class="campo-obrigatorio">campo obrigatório</p>
+            <textarea placeholder="Mensagem *" name="duvida" id="" cols="30" rows="10" class="mensagem"></textarea>
+            <p class="campo-obrigatorio">campo obrigatório</p>
+
+            <p class="campos-obrigatorios">*campos obrigatorios</p>
+
+            <button class="btn-enviar">Enviar</button>
+        </section>
+    </div>
+
+    <script src="./src/js/index.js"></script>
+</body>
+
+</html>

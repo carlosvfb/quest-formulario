@@ -1,0 +1,78 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    background: url(../image/background.jpg);
+    background-size: 62px;
+}
+
+div.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    gap: 60px;
+}
+
+section.duvidas {
+    display: flex;
+    flex-direction: column;
+    gap: 11px;
+    max-width: 302px;
+    color: #FFFFFF;
+}
+
+section.duvidas h2.pergunta-duvida {
+    max-width: 287.25px;
+    font-weight: 900;
+    font-size: 20px;
+}
+
+section.duvidas p.explicacao-duvida {
+    max-width: 100%;
+    font-weight: 400;
+    font-size: 15px;
+}
+
+section.campo-duvidas {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    max-width: 340px;
+    background-color: #FFFFFF;
+    padding: 20px;
+}
+
+input.nome,
+input.email,
+input.telefone, 
+textarea.mensagem {
+    max-width: 298px;
+    border: 1px solid #000000;
+    border-radius: 5px;
+    padding: 10px;
+    font-size: 15px;
+    font-weight: 700;
+}
+
+section.campo-duvidas p.campo-obrigatorio {
+    font-size: 8px;
+    margin-top: -16px;
+    color: #F52E2E;
+    display: none;
+}
+
+section.campo-duvidas p.campos-obrigatorios {
+    margin-bottom: 5px;
+    margin-top: -8px;
+    font-size: 15px;
+    font-weight: 400;
+}
+
+section.campo-duvidas button.btn-enviar {
+    font-size: 15px;
+    font-weight: 700;
+    color: #FFFFFF;
+    background-color: #3CCC87;
+    border-radius: 5px;
+    border: none;
+    padding: 10px;
+}
